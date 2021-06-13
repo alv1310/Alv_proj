@@ -1,0 +1,502 @@
+body {
+  margin: 0px auto;
+  text-align: center;
+  font-family: 微軟正黑體, "Microsoft JhengHei	", 蘋果儷中黑, "Apple LiGothic";
+  background-image: url(images/bg.png);
+  background-repeat: repeat;
+}
+img {
+  border: 0;
+}
+* {
+  list-style: none;
+  top: auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  font-family: 微軟正黑體, "Microsoft JhengHei", 蘋果儷中黑, "Apple LiGothic";
+  font-size: 18px;
+  color: #111111;
+  line-height: 24px;
+  text-align: left;
+}
+
+.logobox {
+  margin: 0 auto;
+  height: 28px;
+  width: auto;
+  background-color: #534741;
+  font-size: 13px;
+  color: #ffffff;
+}
+.logobox table {
+  margin: 0 auto;
+  display: table;
+  border: 0px;
+  border-collapse: separate;
+  width: 850px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-spacing: 0px;
+}
+td a {
+  font-size: 13px;
+  color: #ffffff;
+}
+td a:link {
+  color: #ffffff;
+}
+td a:visited {
+  color: #ffffff;
+}
+.buttom a:link {
+  color: #ff6633;
+}
+.buttom a:visited {
+  color: #cc0033;
+}
+a {
+  text-decoration: none;
+}
+a:hover img {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+span {
+  color: #034a66;
+}
+.banner {
+  margin: 0px auto;
+  background-image: url(images/banner.jpg);
+  width: 720px;
+  height: 328px;
+}
+.banner img {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.block {
+  width: 1000px;
+  height: 3850px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+#book01 {
+  width: 150px;
+  height: 240px;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+#book02 {
+  width: 150px;
+  height: 240px;
+  margin-left: 160px;
+  margin-top: -240px;
+}
+#book03 {
+  width: 150px;
+  height: 240px;
+  margin-left: 320px;
+  margin-top: -240px;
+}
+#book04 {
+  width: 200px;
+  height: 320px;
+  margin-left: 480px;
+  margin-top: -450px;
+}
+#book05 {
+  width: 280px;
+  height: 410px;
+  margin-left: 670px;
+  margin-top: -310px;
+}
+#book06 {
+  width: 195px;
+  height: 285px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+#book07 {
+  width: 195px;
+  height: 285px;
+  margin-left: 200px;
+  margin-top: -285px;
+}
+/* Jas's CSS ToolTip */
+a.jastips {
+  text-decoration: none;
+}
+
+a:link {
+  color: #111111;
+}
+a:visited {
+  color: #111111;
+}
+a:active {
+  color: #0000ff;
+}
+
+.buttom {
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 30px;
+  font-family: 微軟正黑體, "Microsoft JhengHei	", 蘋果儷中黑, "Apple LiGothic";
+  color: #666666;
+  font-size: 11px;
+  line-height: 18px;
+  width: 800px;
+}
+#book08 {
+  height: 285px;
+  width: 195px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#book09 {
+  height: 285px;
+  width: 195px;
+  margin-top: -250px;
+  margin-left: 660px;
+}
+#book10 {
+  height: 294px;
+  width: 249px;
+  margin-left: 400px;
+}
+#book10 {
+  height: 294px;
+  width: 249px;
+}
+#book10 {
+  height: 273px;
+  width: 276px;
+  margin-left: 30px;
+  margin-top: -300px;
+}
+#book15 {
+  height: 285px;
+  width: 195px;
+  margin-top: -290px;
+  margin-left: 440px;
+}
+#book16 {
+  height: 285px;
+  width: 195px;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.buttom a {
+  color: #cc0033;
+}
+.book21 {
+  height: 285px;
+  width: 195px;
+  margin-left: 400px;
+  margin-top: -285px;
+}
+.title100 {
+  height: 210px;
+  width: 490px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.title200 {
+  height: 75px;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.book22 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 600px;
+}
+.book23 {
+  height: 285px;
+  width: 195px;
+  margin-left: 0px;
+}
+.book23 {
+  height: 285px;
+  width: 195px;
+  margin-left: 0px;
+}
+.book24 {
+  height: 285px;
+  width: 195px;
+  margin-left: 800px;
+  margin-top: -285px;
+}
+.book25 {
+  height: 285px;
+  width: 195px;
+  margin-left: 330px;
+  margin-top: -260px;
+}
+.book26 {
+  height: 285px;
+  width: 195px;
+  margin-top: -275px;
+  margin-left: 550px;
+}
+.title300 {
+  height: 320px;
+  width: 510px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.book27 {
+  height: 400px;
+  width: 286px;
+  margin-top: -320px;
+  margin-left: 570px;
+}
+.book28 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 200px;
+}
+.book29 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 400px;
+}
+.book30 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 600px;
+}
+.book31 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 800px;
+}
+.book32 {
+  height: 285px;
+  width: 195px;
+  margin-top: 0px;
+  margin-left: 260px;
+}
+.book33 {
+  height: 285px;
+  width: 195px;
+  margin-top: -320px;
+  margin-left: 460px;
+}
+.book34 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 660px;
+}
+.book35 {
+  height: 285px;
+  width: 195px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.book36 {
+  height: 285px;
+  width: 195px;
+  margin-top: -250px;
+  margin-left: 240px;
+}
+.book37 {
+  height: 285px;
+  width: 195px;
+  margin-top: -265px;
+  margin-left: 460px;
+}
+.book38 {
+  height: 285px;
+  width: 195px;
+  margin-top: -320px;
+  margin-left: 670px;
+}
+#title400 {
+  height: 75px;
+  width: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#book41 {
+  height: 285px;
+  width: 195px;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+#book42 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 260px;
+}
+#book403 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 470px;
+}
+#book44 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 680px;
+}
+#book45 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 750px;
+}
+#title500 {
+  height: 550px;
+  width: 870px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+}
+#book51 {
+  height: 285px;
+  width: 195px;
+  margin-left: -50px;
+}
+#book52 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 150px;
+}
+#book53 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 350px;
+}
+#book54 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 550px;
+}
+#book55 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 750px;
+}
+#c16 {
+  height: 240px;
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+#c17 {
+  height: 240px;
+  width: 150px;
+  margin-top: -240px;
+  margin-left: 160px;
+}
+#c18 {
+  height: 240px;
+  width: 150px;
+  margin-top: -240px;
+  margin-left: 320px;
+}
+#c19 {
+  height: 240px;
+  width: 150px;
+  margin-top: -240px;
+  margin-left: 480px;
+}
+#c20 {
+  height: 240px;
+  width: 150px;
+  margin-top: -240px;
+  margin-left: 640px;
+}
+#t06 {
+  height: 430px;
+  width: 870px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#d1 {
+  height: 285px;
+  width: 195px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#d2 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 200px;
+}
+#d3 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 400px;
+}
+#d4 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 600px;
+}
+#d5 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 800px;
+}
+#C26 {
+  height: 285px;
+  width: 195px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#C293 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 200px;
+}
+#C294 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 400px;
+}
+#C295 {
+  height: 285px;
+  width: 195px;
+  margin-top: -285px;
+  margin-left: 600px;
+}
+#C31 {
+  height: 285px;
+  width: 195px;
+  margin-top: 0px;
+  margin-left: 0px;
+}

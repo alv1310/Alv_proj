@@ -1,0 +1,203 @@
+﻿/* CSS Document */
+body {
+  margin: 0px auto;
+  text-align: center;
+  font-family: "微軟正黑體", "Microsoft JhengHei	", "蘋果儷中黑",
+    "Apple LiGothic";
+  background: url(../images/bg.jpg);
+  color: #333333;
+}
+img {
+  border: 0;
+}
+* {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+span {
+  font-family: "微軟正黑體", "Microsoft JhengHei	", "蘋果儷中黑",
+    "Apple LiGothic";
+  font-size: 18px;
+  color: #cc0033;
+  font-weight: bold;
+}
+
+.logobox {
+  margin: 0 auto;
+  height: 28px;
+  width: auto;
+  background-color: #534741;
+  font-size: 13px;
+  color: #ffffff;
+}
+.logobox table {
+  display: table;
+  margin: 0 auto;
+  border-collapse: separate;
+  width: 850px;
+  border: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-spacing: 0px;
+}
+.logobox a {
+  font-size: 13px;
+  color: #ffffff;
+}
+.logobox a:link {
+  color: #ffffff;
+}
+.logobox a:visited {
+  color: #ffffff;
+}
+.buttom a:link {
+  color: #0066cc;
+}
+.buttom a:visited {
+  color: #993366;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+.banner {
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+}
+
+.title {
+  float: left;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 900px;
+  height: 60px;
+}
+.title img {
+  width: 900px;
+  height: 60px;
+}
+li img {
+  width: 130px;
+}
+li p {
+  font-size: 15px;
+  width: 130px;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
+.block a:hover img {
+  border: 2px dashed #ffffff;
+  padding: 0.5px;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+}
+.block {
+  width: 900px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.block02 {
+  width: 800px;
+  height: 480px;
+  margin: 0px auto;
+  float: left;
+}
+.block01 {
+  margin: 0px auto;
+  height: 230px;
+  float: left;
+}
+.block01 li,
+.block02 li {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.buttom {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 500px;
+  font-family: "Microsoft JhengHei", "Apple LiGothic";
+  color: #333333;
+  font-size: 11px;
+  line-height: normal;
+  float: left;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+#notebook {
+  height: 180px;
+  width: 360px;
+  margin-top: -200px;
+  margin-left: 750px;
+}
+#date {
+  height: 50px;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: -50px;
+}
+#more_info_01 {
+  height: 40px;
+  width: 540px;
+  margin-left: 120px;
+  margin-top: 0px;
+}
+#more_info_02 {
+  height: 40px;
+  width: 540px;
+  margin-top: 0px;
+  margin-left: 120px;
+}
+.banner .buttom p {
+  color: #ffffff;
+}
+#set01 {
+  height: 180px;
+  width: 400px;
+  margin-top: 0px;
+}
+#set02 {
+  height: 180px;
+  width: 400px;
+  margin-left: 440px;
+  margin-top: -180px;
+}
+#set03 {
+  height: 180px;
+  width: 400px;
+}
+#set03 {
+  height: 180px;
+  width: 400px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+#set04 {
+  height: 180px;
+  width: 400px;
+  margin-top: -180px;
+  margin-left: 440px;
+}
