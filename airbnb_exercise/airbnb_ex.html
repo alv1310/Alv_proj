@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>airbnb website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="container"> -->
+    <!------------ header -------------->
+    <div class="header container-fluid">
+        
+        <div class="navbar row d-flex justify-content-between">
+            <div class="nav_left ml-5">
+                <a href="" class="logo">
+                    <svg width="102" height="32" fill="#fff" style="display: block;" viewBox="0 0 102 32">
+                        <path
+                            d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <div class="nav_center ml-5 ">
+                <div class="nav_center_stay">
+                    <label for="stay" class="stay pb-2" style="border-bottom: 2px solid white;">住宿</label>
+                </div>
+                <div class="nav_center_experience">
+                    <label for="experience" class="experience">體驗</label>
+                </div>
+                <a href="" class="nav_online">線上體驗</a>
+            </div>
+            <div class="nav_right mr-5  ">
+                <a href="" class="host">成為房東 / 體驗達人</a>
+                <div class="language">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <title>globe</title>
+                        <path
+                            d="M16.951 11c-0.214-2.69-1.102-5.353-2.674-7.71 1.57 0.409 2.973 1.232 4.087 2.346 1.408 1.408 2.351 3.278 2.581 5.364zM14.279 20.709c1.483-2.226 2.437-4.853 2.669-7.709h3.997c-0.23 2.086-1.173 3.956-2.581 5.364-1.113 1.113-2.516 1.936-4.085 2.345zM7.049 13c0.214 2.69 1.102 5.353 2.674 7.71-1.57-0.409-2.973-1.232-4.087-2.346-1.408-1.408-2.351-3.278-2.581-5.364zM9.721 3.291c-1.482 2.226-2.436 4.853-2.669 7.709h-3.997c0.23-2.086 1.173-3.956 2.581-5.364 1.114-1.113 2.516-1.936 4.085-2.345zM12.004 1c0 0 0 0 0 0-3.044 0.001-5.794 1.233-7.782 3.222-1.99 1.989-3.222 4.741-3.222 7.778s1.232 5.789 3.222 7.778c1.988 1.989 4.738 3.221 7.774 3.222 0 0 0 0 0 0 3.044-0.001 5.793-1.233 7.782-3.222 1.99-1.989 3.222-4.741 3.222-7.778s-1.232-5.789-3.222-7.778c-1.988-1.989-4.738-3.221-7.774-3.222zM14.946 13c-0.252 2.788-1.316 5.36-2.945 7.451-1.729-2.221-2.706-4.818-2.945-7.451zM11.999 3.549c1.729 2.221 2.706 4.818 2.945 7.451h-5.89c0.252-2.788 1.316-5.36 2.945-7.451z">
+                        </path>
+                    </svg>
+                </div>
+                <button type="button" class="user">
+                    <div class="usermenu">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <title>menu</title>
+                            <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+                        </svg>
+                    </div>
+                    <div class="usercircle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                            <title>user-circle</title>
+                            <path
+                                d="M23.797 20.922c-0.406-2.922-1.594-5.516-4.25-5.875-1.375 1.5-3.359 2.453-5.547 2.453s-4.172-0.953-5.547-2.453c-2.656 0.359-3.844 2.953-4.25 5.875 2.172 3.063 5.75 5.078 9.797 5.078s7.625-2.016 9.797-5.078zM20 10c0-3.313-2.688-6-6-6s-6 2.688-6 6 2.688 6 6 6 6-2.688 6-6zM28 14c0 7.703-6.25 14-14 14-7.734 0-14-6.281-14-14 0-7.734 6.266-14 14-14s14 6.266 14 14z">
+                            </path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+        
+        <div class="search_bar mx-auto">
+            <div class="search_location">
+                <label for="" class="location">位置</label>
+                <input class="location_i" type="text" placeholder="你想去哪裡？">
+            </div>
+            <div class="search_checkin">
+                <label for="" class="checkin">入住</label>
+                <input class="checkin_i" type="text" placeholder="新增日期">
+            </div>
+            <div class="search_checkout">
+                <label for="" class="checkout">退房</label>
+                <input class="checkout_i" type="text" placeholder="新增日期">
+            </div>
+            <div class="search_number">
+                <label for="" class="number">人數</label>
+                <input class="number_i" type="text" placeholder="新增人數">
+            </div>
+            <div class="search_button">
+                <button class="search_btn" type="button">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 26 28">
+                        <title>search</title>
+                        <path
+                            d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zM26 26c0 1.094-0.906 2-2 2-0.531 0-1.047-0.219-1.406-0.594l-5.359-5.344c-1.828 1.266-4.016 1.937-6.234 1.937-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-0.672 4.406-1.937 6.234l5.359 5.359c0.359 0.359 0.578 0.875 0.578 1.406z">
+                        </path>
+                    </svg>
+                    <div class="search_text">
+                        <p>搜尋</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+        
+        <div class="search_bar_m mx-auto">
+            <div class="search_button_m">
+                <button class="search_btn_m" type="button">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 26 28">
+                        <title>search</title>
+                        <path
+                            d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zM26 26c0 1.094-0.906 2-2 2-0.531 0-1.047-0.219-1.406-0.594l-5.359-5.344c-1.828 1.266-4.016 1.937-6.234 1.937-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-0.672 4.406-1.937 6.234l5.359 5.359c0.359 0.359 0.578 0.875 0.578 1.406z">
+                        </path>
+                    </svg>                    
+                </button>
+            </div>
+            <a class="search_location_m ml-3">                
+                <input class="location_i_m" type="text" placeholder="你想去哪裡？">
+            </a>
+            
+            
+        </div>
+
+        <div class="bg_p ">           
+        </div>
+
+        <div class="titlegroup row">
+            <div class="title mx-auto py-3">
+                <h2 class="title_text">由房東和體驗達人為你實現</h2>
+            </div>
+        </div>
+    
+    </div>
+
+    <!---------- content explore ----------->
+    <div class="explore container">
+        <h2>探索周邊</h2>
+        <div class="row mt-3">
+            <a href="#" class="city1 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city1_ntp.jpg">
+                <div class="city1_info">
+                    <p><b>新北市</b></p>
+                    <p>45 分鐘車程</p>
+                </div>
+            </a>
+            <a href="#" class="city2 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city2_tpe.jpg" alt="">
+                <div class="city2_info">
+                    <p><b>台北</b></p>
+                    <p>45 分鐘車程</p>
+                </div>
+            </a>
+            <a href="#" class="city3 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city3_tnn.jpg" alt="">
+                <div class="city3_info">
+                    <p><b>台南</b></p>
+                    <p>4 小時車程</p>
+                </div>
+            </a>
+            <a href="#" class="city4 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city4_hun.jpg" alt="">
+                <div class="city4_info">
+                    <p><b>花蓮</b></p>
+                    <p>4 小時車程</p>
+                </div>
+            </a>
+            <a href="#" class="city5 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city5_khh.jpg" alt="">
+                <div class="city5_info">
+                    <p><b>高雄</b></p>
+                    <p>5 小時車程</p>
+                </div>
+            </a>
+            <a href="#" class="city6 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city6_jian.jpg" alt="">
+                <div class="city6_info">
+                    <p><b>吉安</b></p>
+                    <p>4 小時車程</p>
+                </div>
+            </a>
+            <a href="#" class="city7 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city7_ttt.jpg" alt="">
+                <div class="city7_info">
+                    <p><b>台東市</b></p>
+                    <p>4 小時車程</p>
+                </div>
+            </a>
+            <a href="#" class="city8 col-12 col-sm-6 col-lg-3 mb-3">
+                <img src="./images/city8_jiaoxi.jpg" alt="">
+                <div class="city8_info">
+                    <p><b>礁溪</b></p>
+                    <p>1.5 小時車程</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!----------  live ---------->
+    <div class="live container">
+        <h2>在任何角落都能找得到舒適住宿</h2>
+        <div class="live_item row">
+            <a href="#" class="live1 col-12 col-sm-6  col-lg-3 mx-lg-0">
+                <div class="house">
+                    <img src="./images/live1_house.jpg" alt="">
+                </div>
+                <p>整套房源</p>
+            </a>
+            <a href="#" class="live2 col-12 col-sm-6 col-lg-3 mx-lg-0">
+                <div class="cabin">
+                    <img src="./images/live2_cabin.jpg" alt="">
+                </div>
+                <p>小木屋和村舍</p>
+            </a>
+            <a href="#" class="live3 col-12 col-sm-6 col-lg-3 mx-lg-0">
+                <div class="unique">
+                    <img src="./images/live3_unique.jpg" alt="">
+                </div>
+                <p>獨特房源</p>
+            </a>
+            <a href="#" class="live4 col-12 col-sm-6 col-lg-3 mx-lg-0">
+                <div class="pet">
+                    <img src="./images/live4_pet.jpg" alt="">
+                </div>
+                <p>歡迎寵物入住</p>
+            </a>
+        </div>
+    </div>
+    <!----------  experience -------------------->
+    <div class="experienceworld container-fluid">
+        <h2 class="mx-5 pt-5">體驗整個世界</h2>
+        <p class="mx-5">在地達人精心規劃的現場或線上體驗，任君挑選。</p>
+        <!-- </div> -->
+    
+        <div class="experienceworld_inner row mx-5">
+            <a href="#" class="ex_left col-12 col-sm-4 mx-lg-0 mb-lg-5">
+                <div class="without_leaving">
+                    <img src="./images/ex_without_leaving.jpg" alt="">
+                </div>
+                <p class="ex_left_t mb-0">線上體驗</p>
+                <p class="ex_left_i">不用出門也能環遊世界。</p>
+            </a>
+            <a href="#" class="ex_center col-12 col-sm-4 mx-lg-0  mb-lg-5">
+                <div class="things_to_do">
+                    <img src="./images/ex_things_to_do.jpg" alt="">
+                </div>
+                <p class="ex_center_t mb-0">體驗</p>
+                <p class="ex_center_i">隨時隨地都能參加的好玩新鮮事。</p>
+            </a>
+            <a href="#" class="ex_right col-12 col-sm-4 mx-lg-0  mb-lg-5">
+                <div class="adventure">
+                    <img src="./images/ex_adventure.jpg" alt="">
+                </div>
+                <p class="ex_right_t mb-0">探險體驗</p>
+                <p class="ex_right_i">提供食宿的多日遊。</p>
+            </a>
+    
+        </div>
+    </div>
+    <!----------  join -------->
+    <div class="join container">
+        <h2>加入數百萬名 Airbnb 房東和體驗達人的行列</h2>
+        <div class="join_item row">
+            <a href="#" class="join_left col-12 col-sm-4 mx-lg-0">
+                <div class="be_host">
+                    <img src="./images/join_be_host.jpg" alt="">
+                </div>
+                <p>出租房源</p>
+            </a>
+            <a href="#" class="join_center col-12 col-sm-4 mx-lg-0">
+                <div class="host_online">
+                    <img src="./images/join_host_online.jpg" alt="">
+                </div>
+                <p>舉辦線上體驗</p>
+            </a>
+            <a href="#" class="join_right col-12 col-sm-4 mx-lg-0">
+                <div class="activities">
+                    <img src="./images/join_activities.jpg" alt="">
+                </div>
+                <p>舉辦體驗</p>
+            </a>
+        </div>
+    </div>  
+
+
+    <!---------- site map ----------->
+    <div class="container-fluid border-top " style="background-color: #F7F7F7;">
+        <div class="sitemap row mx-lg-5">
+            <div class="map1 col-12 col-md-3 py-3">
+                <h6>關於</h6>
+                <ul class="about_title pb-4 mb-1">
+                    <li class="about_item">
+                        <a href="#">使用 Airbnb 的方法</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">Airbnb 新聞中心</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">投資人</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">Airbnb Plus</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">Airbnb Luxe</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">HotelTonight</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">商務 Airbnb</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">由房東和體驗達人為你實現</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">工作機會</a>
+                    </li>
+                    <li class="about_item">
+                        <a href="#">來自創辦人的信</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="map2 col-12 col-md-3 py-3">
+                <h6>社區</h6>
+                <ul class="community_title pb-4 mb-1">
+                    <li class="community_item">
+                        <a href="#">多元化與歸屬感</a>
+                    </li>
+                    <li class="community_item">
+                        <a href="#">無障礙設施</a>
+                    </li>
+                    <li class="community_item">
+                        <a href="#">Airbnb 推廣夥伴</a>
+                    </li>
+                    <li class="community_item">
+                        <a href="#">防疫人員住宿</a>
+                    </li>
+                    <li class="community_item">
+                        <a href="#">邀請計畫</a>
+                    </li>
+                    <li class="community_item">
+                        <a href="#">Airbnb.org</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="map3 col-12 col-md-3 py-3">
+                <h6>房東和體驗達人</h6>
+                <ul class="host_title pb-4 mb-1">
+                    <li class="host_item">
+                        <a href="#">出租房源</a>
+                    </li>
+                    <li class="host_item">
+                        <a href="#">舉辦線上體驗</a>
+                    </li>
+                    <li class="host_item">
+                        <a href="#">舉辦體驗</a>
+                    </li>
+                    <li class="host_item">
+                        <a href="#">房東義務</a>
+                    </li>
+                    <li class="host_item">
+                        <a href="#">資源中心</a>
+                    </li>
+                    <li class="host_item">
+                        <a href="#">社區中心</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="map4 col-12 col-md-3 py-3">
+                <h6>用戶支援</h6>
+                <ul class="support_title pb-4 mb-1">
+                    <li class="support_item">
+                        <a href="#">我們的新冠肺炎因應措施</a>
+                    </li>
+                    <li class="support_item">
+                        <a href="#">說明中心</a>
+                    </li>
+                    <li class="support_item">
+                        <a href="#">退訂選項</a>
+                    </li>
+                    <li class="support_item">
+                        <a href="#">鄰里支援</a>
+                    </li>
+                    <li class="support_item">
+                        <a href="#">信任與安全</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!---------- footer ------------>
+    <div class="footer container-fluid">
+        <div class="copyright row justify-content-between py-3  mx-lg-5">
+            <div class="date ml-3">
+                <p class="copyright_date">© 2021 Airbnb, Inc. ﹒<a href="#" class="link_item">隱私</a>﹒<a href="#"
+                        class="link_item">相關條款</a>﹒<a href="#" class="link_item">網站地圖</a></p>
+            </div>
+            
+            <div class="settings ml-3">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>globe</title>
+                    <path
+                        d="M16.951 11c-0.214-2.69-1.102-5.353-2.674-7.71 1.57 0.409 2.973 1.232 4.087 2.346 1.408 1.408 2.351 3.278 2.581 5.364zM14.279 20.709c1.483-2.226 2.437-4.853 2.669-7.709h3.997c-0.23 2.086-1.173 3.956-2.581 5.364-1.113 1.113-2.516 1.936-4.085 2.345zM7.049 13c0.214 2.69 1.102 5.353 2.674 7.71-1.57-0.409-2.973-1.232-4.087-2.346-1.408-1.408-2.351-3.278-2.581-5.364zM9.721 3.291c-1.482 2.226-2.436 4.853-2.669 7.709h-3.997c0.23-2.086 1.173-3.956 2.581-5.364 1.114-1.113 2.516-1.936 4.085-2.345zM12.004 1c0 0 0 0 0 0-3.044 0.001-5.794 1.233-7.782 3.222-1.99 1.989-3.222 4.741-3.222 7.778s1.232 5.789 3.222 7.778c1.988 1.989 4.738 3.221 7.774 3.222 0 0 0 0 0 0 3.044-0.001 5.793-1.233 7.782-3.222 1.99-1.989 3.222-4.741 3.222-7.778s-1.232-5.789-3.222-7.778c-1.988-1.989-4.738-3.221-7.774-3.222zM14.946 13c-0.252 2.788-1.316 5.36-2.945 7.451-1.729-2.221-2.706-4.818-2.945-7.451zM11.999 3.549c1.729 2.221 2.706 4.818 2.945 7.451h-5.89c0.252-2.788 1.316-5.36 2.945-7.451z">
+                    </path>
+                </svg>
+                <a href="#" class="lang_text">繁體中文 (TW)
+                </a>
+                <a href="#" class="setting_currency ml-4"
+                    style="text-decoration: underline; font-weight: 500; font-size: 14px;">$TWD
+                </a>
+            </div>
+
+            <div class="copyright_media">
+                <ul class="media_list">
+                    <li class="media_item">
+                        <a href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                viewBox="0 0 32 32">
+                                <title>facebook</title>
+                                <path
+                                    d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="media_item">
+                        <a href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                viewBox="0 0 32 32">
+                                <title>sina-weibo</title>
+                                <path
+                                    d="M13.444 28.063c-5.3 0.525-9.875-1.875-10.219-5.35-0.344-3.481 3.675-6.719 8.969-7.244 5.3-0.525 9.875 1.875 10.213 5.35 0.35 3.481-3.669 6.725-8.963 7.244zM24.038 16.519c-0.45-0.137-0.762-0.225-0.525-0.819 0.512-1.287 0.563-2.394 0.006-3.188-1.038-1.481-3.881-1.406-7.137-0.037 0 0-1.025 0.444-0.762-0.363 0.5-1.613 0.425-2.956-0.356-3.738-1.769-1.769-6.469 0.069-10.5 4.1-3.013 3.006-4.763 6.213-4.763 8.981 0 5.288 6.787 8.506 13.425 8.506 8.7 0 14.494-5.056 14.494-9.069 0-2.431-2.044-3.806-3.881-4.375z">
+                                </path>
+                                <path
+                                    d="M29.819 6.831c-2.1-2.331-5.2-3.219-8.063-2.612v0c-0.663 0.144-1.081 0.794-0.938 1.45 0.144 0.662 0.788 1.081 1.45 0.938 2.038-0.431 4.238 0.2 5.731 1.856s1.9 3.912 1.256 5.888v0c-0.206 0.644 0.144 1.331 0.788 1.544 0.644 0.206 1.331-0.144 1.544-0.787v-0.006c0.9-2.762 0.331-5.938-1.769-8.269z">
+                                </path>
+                                <path
+                                    d="M26.587 9.75c-1.025-1.137-2.538-1.569-3.925-1.269-0.569 0.119-0.931 0.688-0.813 1.256 0.125 0.569 0.688 0.931 1.25 0.806v0c0.681-0.144 1.419 0.069 1.919 0.619 0.5 0.556 0.637 1.313 0.419 1.975v0c-0.175 0.55 0.125 1.15 0.681 1.331 0.556 0.175 1.15-0.125 1.331-0.681 0.438-1.356 0.163-2.906-0.863-4.037z">
+                                </path>
+                                <path
+                                    d="M13.738 21.769c-0.188 0.319-0.594 0.469-0.912 0.337-0.319-0.125-0.412-0.488-0.231-0.794 0.188-0.306 0.581-0.456 0.894-0.337 0.313 0.113 0.425 0.469 0.25 0.794zM12.044 23.931c-0.512 0.819-1.613 1.175-2.438 0.8-0.813-0.369-1.056-1.319-0.544-2.119 0.506-0.794 1.569-1.15 2.387-0.806 0.831 0.356 1.1 1.3 0.594 2.125zM13.969 18.144c-2.519-0.656-5.369 0.6-6.463 2.819-1.119 2.262-0.037 4.781 2.506 5.606 2.637 0.85 5.75-0.456 6.831-2.894 1.069-2.394-0.262-4.85-2.875-5.531z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="media_item">
+                        <a href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                viewBox="0 0 32 32">
+                                <title>twitter</title>
+                                <path
+                                    d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="media_item">
+                        <a href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 20 20">
+                                <title>instagram</title>
+                                <path
+                                    d="M17 1h-14c-1.1 0-2 0.9-2 2v14c0 1.101 0.9 2 2 2h14c1.1 0 2-0.899 2-2v-14c0-1.1-0.9-2-2-2zM9.984 15.523c3.059 0 5.538-2.481 5.538-5.539 0-0.338-0.043-0.664-0.103-0.984h1.581v7.216c0 0.382-0.31 0.69-0.693 0.69h-12.614c-0.383 0-0.693-0.308-0.693-0.69v-7.216h1.549c-0.061 0.32-0.104 0.646-0.104 0.984 0 3.059 2.481 5.539 5.539 5.539zM6.523 9.984c0-1.912 1.55-3.461 3.462-3.461s3.462 1.549 3.462 3.461-1.551 3.462-3.462 3.462c-1.913 0-3.462-1.55-3.462-3.462zM16.307 6h-1.615c-0.382 0-0.692-0.312-0.692-0.692v-1.617c0-0.382 0.31-0.691 0.691-0.691h1.615c0.384 0 0.694 0.309 0.694 0.691v1.616c0 0.381-0.31 0.693-0.693 0.693z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
